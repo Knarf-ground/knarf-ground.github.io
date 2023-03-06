@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5a6beb288f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo-img" src="./Pics/logo2-removebg-preview.png" alt="Logo Ferreteria">
+        </div>
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="horarios.html">Horarios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="container-md form-container">
+        <div class="mb-2 container-md text-custom">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control form-control-sm" id="nombre" required>
+        </div>
+        <div class="mb-2 container-md text-custom">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control form-control-sm" id="apellido" required>
+        </div>
+        <div class="mb-2 container-md text-custom">
+            <label for="cumpleaños">Fecha de nacimiento</label><br>
+            <input class="form-control" type="date" value="2005-02-25" max="2005-02-25" required>
+        </div>
+        <div class="mb-2 container-md text-custom">
+            <label for="mail" class="form-label">E-mail</label>
+            <input type="email" class="form-control form-control-sm" id="mail" placeholder="e-mail@servidor.com" required>
+        </div>
+        <div class="mb-3 container-md text-custom">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="number" class="form-control form-control-sm" id="telefono">
+        </div>
+        <p class="input-par text-custom mb-2">Indique su sexo</p>
+        <div class="form-check mb-3 container-md">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label input-name" for="flexRadioDefault1">Masculino</label><br>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+            <label class="form-check-label input-name" for="flexRadioDefault2">Femenino</label><br>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+            <label class="form-check-label input-name" for="flexRadioDefault3">Otro</label>
+        </div>
+        <div class="container-md text-custom">
+        <select class="form-select form-select-md mb-2" aria-label="form-select-lg">
+            <option selected>Seleccione su País</option>
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Chile</option>
+            <option value="4">Uruguay</option>
+            <option value="5">Paraguay</option>
+            <option value="6">Bolivia</option>
+          </select>
+        </div>
+        <div class="container-md text-custom">
+            <label for="textarea" class="form-label">Mensaje</label>
+            <textarea class="form-control textarea" id="textarea" rows="5"></textarea>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-outline-warning btn-custom" type="submit" value="Submit">Enviar</button>
+          </div>
+        </form>
+    <footer class="footer">
+        <nav class="nav-footer">
+            <div class="footer-link">
+                <a href="#"> Gestión de envios</a>
+                <a href="#"> Proximamente</a>
+                <a href="#">¿Cómo comprar?</a> 
+            </div>
+            <div class="info">
+                <p>Tel: (0336) 4199369</p>
+                <p>ventas@ferreteriarandom.com.ar</p>
+                <p>Calle Falsa 123, San Nicolás de los Arroyos, Buenos Aires</p>
+            </div>
+        </nav>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <button class="whatsapp"><a href="https://wa.me/3364199369" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></button>
+        <h5>Copyright © 2023 Franco. <br> Todos los derechos reservados.</h5>
+        
+    </footer>
+</body>
+</html>
